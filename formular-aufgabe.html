@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title></title>
+    <body>
+        <form action="/kontakt" method="post" style="text-align: center;">
+  <label for="vorname">Vorname</label>
+  <input type="text" name="vorname" id="vorname"> <br>     <!--(1)-->
+  <label for="mail">E-Mail-Adresse</label>
+  <input type="text" name="email" id="mail">  <br>         <!--(2)-->
+  <label for="nachname">Nachname</label>
+  <input type="text" name="nachname"
+         placeholder="Nachname" id="nachname"> <br>                      <!--(3)-->
+   <label for="telefon">Telefonnummer</label> 
+   <input type="tel" name="telefonnummer" placeholder="+49....." id="telefon">  <br>
+   <label for="geburtsdatum">Geburtsdatum</label>
+   <input type="date" name="geburtsdatum" id="geburtsdatum" ><br>  
+   <label>
+  <input type="checkbox" name="datenschutz" value="ja">
+  Ich habe die Datenschutzerklärung gelesen
+   </label><br>
+   <fieldset>
+    <legend>Wie haben Sie von uns erfahren?</legend>
+    <label>
+        <input type="radio" name="herkunft" value="internet">Internet
+    </label>
+    <label>
+        <input type="radio" name="herkunft" value="empfehlung">Empfehlung
+    </label>
+    <label>
+        <input type="radio" name="herkunft" value="anzeige">Anzeige
+    </label>
+
+   </fieldset> 
+  <button type="submit">Absenden</button>
+</form>
+    </body>
+</html>
