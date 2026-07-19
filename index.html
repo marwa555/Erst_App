@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-
-
+  <head lang="de">
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Meine Seite</title>
  </head>
 <body>
+    <figure>
+        <img src="Imag/profil2.png" alt="Profilbid">
+        <figcaption> Mein Profilbild</figcaption>
+    </figure>
     <ul>
         <li><a href="#über-mich">Über mich</a></li>
-        <li>><a href="#lernen">Was ich lerne</a></li>
-        <li>><a href="#hobbys">Meine Hobbys</a></li>
+        <li><a href="#lernen">Was ich lerne</a></li>
+        <li><a href="#hobbys">Meine Hobbys</a></li>
     </ul>
     <h1>Marwa Alyaseen</h1>
      <section id="über-mich"><h2>Über mich</h2></section>
@@ -21,13 +25,14 @@
     <p>><em>
         ich lerne html und css , weil ich die Programmierung liebe
     </em></p>
-    <section id="lernen"> <h3>Thema im Kurs</h3></section>
+    <section id="lernen"> <h3>Thema im Kurs</h3>
     <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>Semantisches HTML</li>
         <li>Link und Liste</li>
     </ul>
+    </section>
     <section id ="hobbys">
         <h2>Meine Hobbys</h2>
         <ul>
@@ -35,9 +40,62 @@
         <li>Musik hören</li>
         <li>Programmieren lernen</li>
         <li>Spazieren gehen</li>
+    </ul>
 
     </section>
 
+<table border="1" style="text-align: center; margin: auto;">
+        <caption>Maeine aktuellen Kenntnisse</caption>
+  <thead>     
+  <tr>
+    <th>Thema</th>
+    <th>Kenntnisstand</th>
+    <th>Seit wann</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>CSS</td>
+    <td>Gut</td>
+    <td>2023</td>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>Gut</td>
+    <td>2019</td>
+  </tr>
+   <tr>
+    <td>Exel</td>
+    <td>Gut</td>
+    <td>2022</td>
+  </tr>
+   <tr>
+    <td>Word</td>
+    <td>Gut</td>
+    <td>2015</td>
+  </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+        <td colspan="3">aktuelles Datum 14.07.2026</td>
+    </tr>
+  </tfoot>
+</table>
+ <fieldset>
+    <form>
+        <label for="name">Vorname </label>
+        <input type="text" name="vname" id="name" required>
+        <label for="nachname">Nachname</label>
+        <input type="text" name="nachname" id="nachname" required>
+        <label for="mail">Email</label>
+        <input type="email" name="email" id="machen" readonly>
+        <label for="telefon">Telefonnummer</label>
+        <input type="tel" name="telefon" id="telefon" required placeholder="+49.......">
+        <label for="leb">Deine Nachricht</label>
+        <textarea id="leb" name="nachricht" required placeholder="Deine Nachricht"></textarea><br><br>
+        <button type="submit">Senden</button>
+    </fieldset>
+    </form><br>
 
 </body>
 </html>

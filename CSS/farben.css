@@ -1,0 +1,22 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  
+
+}
+.info {
+  color: #4682b4;
+  background-color: #add8e6;
+}
+.warnung {
+  color: #8b0000;
+  background-color: #ffffe0;
+}
+.erfolg {
+  color: #006400;
+  background-color: #90ee90;
+}
+.dunkel{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(220, 50%, 20%);
+}
