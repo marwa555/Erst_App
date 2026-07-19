@@ -1,0 +1,94 @@
+ *::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    background-color:#f8f4ef;
+}
+
+ figure{
+text-align: center;
+margin: 20px auto;
+ }
+
+ figure img {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    border: 0.3rem solid #333;
+
+
+}  
+figure figcaption{
+    margin-top: 0.1rem;
+    font-family: italic ,'Courier New', Courier, monospace;
+    counter-reset: #333;
+}  
+
+ul{
+    list-style: square;
+    padding-left: 2rem;
+    line-height: 1.8;
+    
+
+}
+ul a {
+    color: #333;
+    text-decoration: none;
+}
+li {
+    margin-bottom: 0.5rem;
+    color: grey;
+    
+}
+#lernen,#hobbys, ul {
+    list-style-type: square;
+    padding-left: 2rem;
+}
+#lernen,#hobbys ,li {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    color: #333;
+}
+fieldset form {
+    max-width: 31.25rem;
+    margin: 2rem;
+padding: 1.5rem;
+background-color:#ffffff;
+border: 1px solid #ddd;
+border-radius: 0.75rem;
+}
+fieldset form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+   font-weight: bold;
+}
+fieldset form input,textarea {
+    width: 100%;
+    padding:0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+fieldset form textarea{
+    resize: vertical;
+    min-height: 7rem;
+
+}
+fieldset form button {
+    margin-top: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+    
+}
+fieldset form button:hover{
+    background-color: #45a049;
+}
