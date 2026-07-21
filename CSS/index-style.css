@@ -7,9 +7,10 @@ body {
 }
 
  figure{
-   
-text-align: center;
-margin: 20px auto;
+display: flex;
+flex-direction: column;
+align-items: left;
+
  }
 
  figure img {
@@ -22,10 +23,9 @@ margin: 20px auto;
 
 }  
 figure figcaption{
-   
-   
     font-family: italic ,'Courier New', Courier, monospace;
     counter-reset: #333;
+    padding: 1.5rem;
 }  
 
 ul{
@@ -36,8 +36,11 @@ ul{
 
 }
 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #d7dcd1;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
    
 }
 
@@ -45,9 +48,11 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: right;
-    gap: 40px;
+    gap: 1.2rem;
 }
 nav h1{
+    font-weight: bold;
+  font-size: 1.2rem;
    color:rgb(104, 98, 87); ;
 }
 
@@ -120,4 +125,20 @@ fieldset form button {
 }
 fieldset form button:hover{
     background-color: #45a049;
+}
+#karte-section{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.karte {
+  flex: 1 1 150px;          
+  background-color: #fff;
+  border: 1px solid #201e1e;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+.karte h3,p {
+    color: darkslategrey;
 }
