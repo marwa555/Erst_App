@@ -1,0 +1,11 @@
+.layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start; /* Spalten wachsen nicht auf gleiche Höhe */
+}
+.sidebar {
+  flex: 0 0 250px;  /* weder wachsen noch schrumpfen, immer 250px */
+}
+.inhalt {
+  flex: 1;          /* nimmt den restlichen Platz */
+}
